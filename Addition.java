@@ -1,15 +1,15 @@
 import java.util.Scanner;
 public class Addition {
-    public  void add(int a , int b) {
+    public void add(int a , int b) {
         int c ;
         c=a+b;
         System.out.println("The Sum of Two number is : "+c);
     }
 }
-class DoAddition{
+ public class DoAddition{
     public static void main(String[] args) {
-        add ad=new add;
-        Scanner sc=new Scanner;
+        Addition ad=new Addition();
+        Scanner sc=new Scanner(System.in);
         int num1,num2;
         System.out.println("Enter a number");
         num1=sc.nextInt();
