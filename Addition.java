@@ -5,6 +5,11 @@ class Addition1{
         c=a+b;
         System.out.println("The Sum of Two number is : "+c);
     }
+    public void sub(int a , int b){
+        int c ;
+        c=a-b;
+        System.out.println("The Difference of Two number is : "+c);
+    }
 }
 class Addition{
     public static void main(String[] args) {
@@ -16,5 +21,6 @@ class Addition{
         System.out.println("Enter another number");
         num2=sc.nextInt();
         ad.add(num1,num2);
+        ad.sub(num1,num2);
     }
 }
