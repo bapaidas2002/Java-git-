@@ -1,14 +1,14 @@
 import java.util.Scanner;
-public class Addition {
+class Addition1{
     public void add(int a , int b) {
         int c ;
         c=a+b;
         System.out.println("The Sum of Two number is : "+c);
     }
 }
- public class DoAddition{
+class Addition{
     public static void main(String[] args) {
-        Addition ad=new Addition();
+        Addition1 ad=new Addition1();
         Scanner sc=new Scanner(System.in);
         int num1,num2;
         System.out.println("Enter a number");
