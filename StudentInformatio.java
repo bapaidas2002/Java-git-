@@ -27,6 +27,7 @@ class StudentInformatio {
 
     s1.Display();
     s2.Percentage();
+    System.out.println("thank you");
 
     }
 
