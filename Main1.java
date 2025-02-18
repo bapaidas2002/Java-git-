@@ -1,3 +1,4 @@
+import java.util.Scanner;
 class A{
     double x,y;
     public double Sum2D(){
@@ -13,13 +14,19 @@ class B{
 }
 class Main1{
     public static void main(String[] args) {
+        Scanner sc =new Scanner(System.in);
         A a1=new A();
         B b1=new B();
-        a1.x=2;
-        a1.y=3;
-        b1.x=3;
-        b1.y=4;
-        b1.z=5;
+        System.out.println("Enter a number : ");
+        a1.x=sc.nextInt();
+        System.out.println("Enter a number : ");
+        a1.y=sc.nextInt();
+        System.out.println("Enter a number : ");
+        b1.x=sc.nextInt();
+        System.out.println("Enter a number : ");
+        b1.y=sc.nextInt();
+        System.out.println("Enter a number : ");
+        b1.z=sc.nextInt();
         System.out.println("the sum is : "+a1.Sum2D());
         System.out.println("the sum is : "+b1.Sum3D());
     }
