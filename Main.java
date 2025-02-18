@@ -5,10 +5,7 @@ class A{
         this.y=y;
     }
     public void point2D(){
-        System.out.print("The coordinates are :");
-        System.out.print( x );
-        System.out.print(" and ");
-        System.out.println( y );
+        System.out.println("The coordinates are : "+ x + " and "+ y);
     }
 }
 class B{
@@ -19,12 +16,7 @@ class B{
         this.z=z;
     }
     public void point3D(){
-        System.out.print("The coordinates are :");
-        System.out.print( x );
-        System.out.print(" and ");
-        System.out.print(y);
-        System.out.print(" and ");
-        System.out.print( z);
+        System.out.print("The coordinates are : "+x+" and "+y+" and "+z);
     }
 }
 class Main{
