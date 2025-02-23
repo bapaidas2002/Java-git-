@@ -38,15 +38,10 @@ class Box{
         System.out.println("Volume of Box (type constructor) : "+vol);
     }
     public void area(double length,double breadth){
-        this.breadth=breadth;
-        this.length=length;
         ar=length*breadth;
         System.out.println("Area of Box (type method) : "+ar);
     }
     public void volume(double length,double breadth,double height){
-        this.breadth=breadth;
-        this.length=length;
-        this.height=height;
         vol=length*breadth*height;
         System.out.println("Volume of Box (type method) : "+vol);
     }
@@ -73,12 +68,10 @@ class Circle{
         System.out.println("Area of circle (type constructor) : "+vol);
     }
     public void circumference(double radius){
-        this.radius=radius;
         ar=2*(22/7)*radius;
         System.out.println("Circumference of circle (type method) : "+ar);
     }
     public void area(double radius){
-        this.radius=radius;
         vol=(22/7)*radius*radius;
         System.out.println("Area of circle (type method) : "+ vol);
     }
