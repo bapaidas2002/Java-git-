@@ -2,7 +2,7 @@ import java.util.Scanner;
 class EmployeDatabase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-    System.out.println("ENter Details !");
+    System.out.println("Enter Details !");
     System.out.print("Enter name : ");
     String name =sc.nextLine();
     System.out.print("Enter Day of Birth : ");
@@ -47,9 +47,9 @@ class Person{
         dob=db;
     }
     void DisplayPerson(){
-        System.out.println("nme : "+name);
-        System.out.println("Mobile no : "+number);
+        System.out.println("Name : "+name);
         dob.DisplayDate();
+        System.out.println("Mobile no : "+number);
     }  
 }
 class Employe extends Person{
@@ -62,7 +62,7 @@ class Employe extends Person{
     }
     void DisplayEmploye(){
         DisplayPerson();
-        System.out.println("ID : "+id);
+        System.out.println("Employe ID : "+id);
         System.out.println("Salary : "+salary);    
     }
 }
