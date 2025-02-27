@@ -2,7 +2,7 @@ import java.util.Scanner;
 class EmployeDatabase {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Enter Details !");
+        System.out.println("Enter Details CAREFULLY !");
         System.out.print("Enter name : ");
         String name =sc.nextLine();
         System.out.print("Enter Day of Birth : ");
