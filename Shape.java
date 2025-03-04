@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
-class Circle {
+class Circle2 {
 	double radius;
-	Circle(){
+	Circle2(){
 		this.radius=5;
 	}
-	Circle(double radius){
+	Circle2(double radius){
 		this.radius=radius;
 	}
 	public double circumference(){
@@ -23,9 +23,9 @@ class Circle {
     }
 }
 
-class Box {
+class Box2 {
 	double height,depth,width;
-	Box(double height,double depth, double width){
+	Box2(double height,double depth, double width){
 		this.height=height;
 		this.depth=depth;
 		this.width=width;
@@ -50,12 +50,12 @@ public class Shape {
         Scanner in=new Scanner(System.in);
 		System.out.println("Enter the radius");
 		double r=in.nextDouble();
-		Circle c=new Circle(r);
+		Circle2 c=new Circle2(r);
 		System.out.println("Enter the Box dimensiton : Height, Width and Depth:");
 		double h=in.nextDouble();
 		double w=in.nextDouble();
 		double d=in.nextDouble();
-		Box box= new Box(h,w,d);
+		Box2 box= new Box2(h,w,d);
 		
 		System.out.println("Circumference:\t"+c.circumference());
 		System.out.println("Circumference:\t"+c.circumference(55));
@@ -66,6 +66,5 @@ public class Shape {
 		System.out.println("Box Volume:\t"+box.volume());
 		System.out.println("Box Volume:\t"+box.volume(5,7,9));
 		
-		
-    }
+	}
 }

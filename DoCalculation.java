@@ -1,7 +1,7 @@
 public class DoCalculation {
     public static void main(String[] args) {
         
-        Calculator c1=new Calculator();
+        Calculator2 c1=new Calculator2();
 
         System.out.println("Sum : "+c1.Addition(4, 5));
         System.out.println("Subtraction : "+c1.Subtraction(10, 6));
@@ -10,7 +10,7 @@ public class DoCalculation {
     }
     
 }
-class Calculator {
+class Calculator2 {
     public int Addition(int a ,int b){
         return a+b;
     }
