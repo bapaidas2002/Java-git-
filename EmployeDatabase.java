@@ -64,7 +64,6 @@ class Employe extends Person{
     }
     void DisplayEmploye(){
         DisplayPerson();
-        DisplayPerson();
         
         System.out.println("Employe ID : "+id);
         System.out.println("Salary : "+salary);    
