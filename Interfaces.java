@@ -1,14 +1,14 @@
-// Interface definition
+
 interface Printable {
     void printDetails();
 }
 
-// Interface definition for another behavior
+
 interface Drawable {
     void draw();
 }
 
-// Superclass (base class)
+
 class Person {
     String name;
     int age;
@@ -24,7 +24,7 @@ class Person {
     }
 }
 
-// Subclass extending Person and implementing Printable
+
 class Employee extends Person implements Printable {
     String employeeId;
     String department;
@@ -43,7 +43,7 @@ class Employee extends Person implements Printable {
     }
 }
 
-// Subclass implementing Drawable and Printable
+
 class Circle implements Drawable, Printable {
     double radius;
 
@@ -63,7 +63,7 @@ class Circle implements Drawable, Printable {
     }
 }
 
-// Subclass implementing Printable without extending any class
+
 class Book implements Printable {
     String title;
     String author;
