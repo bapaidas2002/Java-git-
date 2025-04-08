@@ -8,8 +8,7 @@ public class practice {
         System.out.println(name.toUpperCase());
         System.out.println(clas.toUpperCase());
          System.out.println(clas.toLowerCase());
-         System.out.println(clas.toUpperCase());
-         System.out.println(clas.toLowerCase());
+       
     }
     
 }
