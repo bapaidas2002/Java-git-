@@ -6,8 +6,7 @@ public class practice {
         System.out.println(name.charAt(2));
         System.out.println(name.toLowerCase());
         System.out.println(name.toUpperCase());
-        System.out.println(clas.toUpperCase());
-         System.out.println(clas.toLowerCase());
+       
        
     }
     
